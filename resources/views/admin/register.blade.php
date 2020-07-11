@@ -52,7 +52,7 @@ Register | Rizwan
                         {{$row->email}}
                         </td>
                         <td class="text-right">
-                          <a href="/register-edit/{{$row->id}}" class="btn btn-sucess">Edit</a>
+                          <a href="/register-edit/{{$row->id}}" class="btn btn-sucess">Edit user</a>
                         </td>
                         <td class="text-right">
                         <form action="/register-delete/{{$row->id}}" method="post">
